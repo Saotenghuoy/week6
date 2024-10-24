@@ -1,0 +1,27 @@
+body{
+    background-color: yellow;
+}
+h1{
+    padding: 10px 5px;
+    background-color: white;
+    text-align: center;
+}
+.navbar{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    font-size: 17px;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: red;
+    color: black;
+}
+html,body{
+    scroll-behavior:smooth;
+}
